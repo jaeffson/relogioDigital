@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+  </head>
+  <body>
+    <section id="clock">
+      <div id="item-cicle" style="--color: #d9ff00">
+        <i class="point point-hr"></i>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="hh"></circle>
+        </svg>
+        <div id="hours">00</div>
+      </div>
+     
+      <div id="item-cicle" style="--color: #bb00ff">
+        <i class="point point-min"></i>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="mm"></circle>
+        </svg>
+        <div id="minutes">00</div>
+      </div>
+      
+      <div id="item-cicle" style="--color: #ff9100">
+        <i class="point point-sec"></i>
+        <svg>
+          <circle cx="70" cy="70" r="70"></circle>
+          <circle cx="70" cy="70" r="70" id="ss"></circle>
+        </svg>
+        <div id="secunds">00</div>
+      </div>
+      
+      <div class="ap">
+        <div id="ampm">AM</div>
+      </div>
+   
+    </section>
+    <section  class="inf-date">
+        <div  class="date" >
+            <span
+           > 
+            </span>
+          </div>
+    </section>
+  </body>
+</html>
+<script src="/assets/js/script.js"></script>
